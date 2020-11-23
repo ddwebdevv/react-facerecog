@@ -4,11 +4,10 @@ import './index.css';
 import App from './App';
 import 'tachyons';
 // import reportWebVitals from './reportWebVitals';
-
 ReactDOM.render(
-  <React>
+  <React.StrictMode>
     <App />
-  </React>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
